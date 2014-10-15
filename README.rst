@@ -62,6 +62,7 @@ returning a ``HostConfig`` instance for a given hostname. A ``HostConfig`` looks
       commandTimeout: Option[Int] = None,
       enableCompression: Boolean = false,
       hostKeyVerifier: HostKeyVerifier = ...,
+      ptyConfig: Option[PTYConfig] = None,
       sshjConfig: Config = ...
     )
 
